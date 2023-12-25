@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "main"
-permalink: /docs/
+permalink: /
 ---
 
 ## Main page

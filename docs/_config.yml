@@ -3,3 +3,5 @@ plugins:
 - jekyll-remote-theme
 title: Man in his thirties 
 description: Time to go live
+source              : .
+destination         : ./_site

@@ -15,3 +15,16 @@ permalink: /
     </li>
   {% endfor %}
 </ul>
+
+<hr/>
+
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for page in site.pages %}
+  <li>
+    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+    <p>{{ page.excerpt }}</p>
+  </li>
+  {% endfor %}
+</ul>

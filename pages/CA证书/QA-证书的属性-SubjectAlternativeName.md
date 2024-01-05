@@ -1,4 +1,7 @@
-###SubjectAlternativeName的作用？
+---
+title: "QA-证书的属性-SubjectAlternativeName.md"
+---
+### SubjectAlternativeName的作用？
 其实就是对证书Owner/Subject的一个扩展，因为Owner字段装不下这么多信息。
 SubjectAlternativeName（SAN）是CA证书中的一个扩展字段，用于指定证书可以用于验证的额外主体名称。SAN的作用包括：
 
